@@ -1,0 +1,39 @@
+﻿using Tyuiu.MkhitaryanSG.Sprint6.Task1.V12.Lib;
+namespace Tyuiu.MkhitaryanSG.Sprint6.Task1.V12.Test
+{
+    [TestClass]
+    public sealed class Test1
+    {
+        [TestMethod]
+        public void TestMethod1()
+        {
+            DataService ds = new DataService();
+            int start = -5;
+            int end = 5;
+
+            int len = end - start + 1;
+
+            double[] value;
+            value = new double[len];
+
+            value[0] = -8.86;
+            value[1] = -7.19;
+            value[2] = -6.14;
+            value[3] = -4.76;
+            value[4] = -2.33;
+            value[5] = 1.00;
+            value[6] = 4.38;
+            value[7] = 0.00;
+            value[8] = 6.13;
+            value[9] = 7.07;
+            value[10] = 8.61;
+
+
+            double[] res;
+            res = new double[len];
+            res = ds.GetMassFunction(start, end);
+            CollectionAssert.AreEqual(res, value);
+
+        }
+    }
+}
