@@ -106,7 +106,6 @@
             buttonDone.TabIndex = 4;
             buttonDone.Text = "Выполнить";
             buttonDone.UseVisualStyleBackColor = true;
-            buttonDone.Click += this.buttonDone_Click_1;
             // 
             // buttonInf
             // 
