@@ -5,25 +5,19 @@ namespace Tyuiu.MkhitaryanSG.Sprint6.Task3.V7.Lib
     {
         public int[,] Calculate(int[,] matrix)
         {
-            int rows = matrix.GetLength(0);
-            int cols = matrix.GetLength(1);
-
-
-            int[,] result = (int[,])matrix.Clone();
-
-
-            int[] thirdCol = new int[rows];
-            for (int i = 0; i < rows; i++)
-                thirdCol[i] = result[i, 3];
-
-
-            Array.Sort(thirdCol);
-
-
-            for (int i = 0; i < rows; i++)
-                result[i, 3] = thirdCol[i];
-
-            return result;
+            for (int i = 0; i < matrix.GetLength(0); i++)
+            {
+                for (int j = i + 1; j < matrix.GetLength(0); j++)
+                {
+                    if (matrix[j, 3] < matrix[i, 3])
+                    {
+                        int temp = matrix[i, 3];
+                        matrix[i, 3] = matrix[j, 3];
+                        matrix[j, 3] = temp;
+                    }
+                }
+            }
+            return matrix;
         }
     }
 }

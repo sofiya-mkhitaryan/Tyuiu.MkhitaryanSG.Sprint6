@@ -47,7 +47,7 @@
             groupBoxUsl.Controls.Add(textBoxUsl);
             groupBoxUsl.Location = new Point(12, 12);
             groupBoxUsl.Name = "groupBoxUsl";
-            groupBoxUsl.Size = new Size(615, 367);
+            groupBoxUsl.Size = new Size(615, 342);
             groupBoxUsl.TabIndex = 0;
             groupBoxUsl.TabStop = false;
             groupBoxUsl.Text = "Условие";
@@ -58,8 +58,9 @@
             dataGridViewTask.Location = new Point(272, 32);
             dataGridViewTask.Name = "dataGridViewTask";
             dataGridViewTask.RowHeadersWidth = 51;
-            dataGridViewTask.Size = new Size(300, 188);
+            dataGridViewTask.Size = new Size(321, 279);
             dataGridViewTask.TabIndex = 1;
+            dataGridViewTask.CellContentClick += dataGridViewTask_CellContentClick;
             // 
             // textBoxUsl
             // 
@@ -69,6 +70,7 @@
             textBoxUsl.Size = new Size(239, 144);
             textBoxUsl.TabIndex = 2;
             textBoxUsl.Text = "Дана матрица 5 на 5 \r\n31  25 -18  12   9\r\n6    34  -2    2   -18\r\n-5   4    27   4   -1\r\n4    15   34  -6   -10\r\n0     8     5    14   -17\r\n";
+            textBoxUsl.TextChanged += textBoxUsl_TextChanged_1;
             // 
             // groupBoxRes
             // 
@@ -76,7 +78,7 @@
             groupBoxRes.Controls.Add(labelRes);
             groupBoxRes.Location = new Point(636, 12);
             groupBoxRes.Name = "groupBoxRes";
-            groupBoxRes.Size = new Size(152, 280);
+            groupBoxRes.Size = new Size(152, 94);
             groupBoxRes.TabIndex = 0;
             groupBoxRes.TabStop = false;
             groupBoxRes.Text = "Ввод данных";
@@ -88,6 +90,7 @@
             textBoxRes.ReadOnly = true;
             textBoxRes.Size = new Size(125, 27);
             textBoxRes.TabIndex = 1;
+            textBoxRes.TextChanged += this.textBoxRes_TextChanged_1;
             // 
             // labelRes
             // 
@@ -100,21 +103,23 @@
             // 
             // buttonDone
             // 
-            buttonDone.Location = new Point(681, 322);
+            buttonDone.Location = new Point(681, 384);
             buttonDone.Name = "buttonDone";
-            buttonDone.Size = new Size(107, 29);
+            buttonDone.Size = new Size(107, 54);
             buttonDone.TabIndex = 4;
             buttonDone.Text = "Выполнить";
             buttonDone.UseVisualStyleBackColor = true;
+            buttonDone.Click += this.buttonDone_Click_2;
             // 
             // buttonInf
             // 
-            buttonInf.Location = new Point(642, 322);
+            buttonInf.Location = new Point(615, 385);
             buttonInf.Name = "buttonInf";
-            buttonInf.Size = new Size(28, 29);
+            buttonInf.Size = new Size(60, 53);
             buttonInf.TabIndex = 5;
             buttonInf.Text = "?";
             buttonInf.UseVisualStyleBackColor = true;
+            buttonInf.Click += buttonInf_Click_1;
             // 
             // FormMain
             // 
