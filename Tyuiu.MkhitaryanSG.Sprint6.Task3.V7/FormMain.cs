@@ -42,7 +42,7 @@ namespace Tyuiu.MkhitaryanSG.Sprint6.Task3.V7
         }
         private void buttonInf_Click_1(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 4 выполнила студентка группы РППб25-1 Мхитарян София Геворковна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Таск 3 выполнила студентка группы РППб25-1 Мхитарян София Геворковна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         private void dataGridViewTask_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
