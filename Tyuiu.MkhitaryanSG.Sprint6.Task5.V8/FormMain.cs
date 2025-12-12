@@ -42,5 +42,6 @@ namespace Tyuiu.MkhitaryanSG.Sprint6.Task5.V8
             txt.Start();
         }
         private void chartResult_Click(object sender, EventArgs e) { }
+        private void dataGridViewData_CellContentClick(object sender, EventArgs e) { }
     }
 }
