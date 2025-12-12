@@ -104,22 +104,22 @@
             // 
             // groupBoxOutPutData
             // 
+            groupBoxOutPutData.Anchor = AnchorStyles.None;
             groupBoxOutPutData.Controls.Add(textBoxLoadFromFile);
-            groupBoxOutPutData.Controls.Add(groupBox1);
-            groupBoxOutPutData.Location = new Point(0, 111);
+            groupBoxOutPutData.Location = new Point(6, 105);
             groupBoxOutPutData.Name = "groupBoxOutPutData";
-            groupBoxOutPutData.Size = new Size(800, 339);
+            groupBoxOutPutData.Size = new Size(343, 339);
             groupBoxOutPutData.TabIndex = 4;
             groupBoxOutPutData.TabStop = false;
             groupBoxOutPutData.Text = "Ввод данных";
             // 
             // groupBox1
             // 
+            groupBox1.Anchor = AnchorStyles.None;
             groupBox1.Controls.Add(textBoxResult);
-            groupBox1.Dock = DockStyle.Right;
-            groupBox1.Location = new Point(366, 23);
+            groupBox1.Location = new Point(369, 105);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(431, 313);
+            groupBox1.Size = new Size(431, 339);
             groupBox1.TabIndex = 3;
             groupBox1.TabStop = false;
             groupBox1.Text = "Вывод данных";
@@ -153,6 +153,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(groupBox2);
+            Controls.Add(groupBox1);
             Controls.Add(groupBoxOutPutData);
             Name = "FormMain";
             RightToLeft = RightToLeft.No;

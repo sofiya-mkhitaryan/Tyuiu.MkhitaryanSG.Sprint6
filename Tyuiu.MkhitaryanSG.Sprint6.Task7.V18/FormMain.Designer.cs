@@ -1,6 +1,6 @@
 ﻿namespace Tyuiu.MkhitaryanSG.Sprint6.Task7.V18
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         ///  Required designer variable.
