@@ -53,7 +53,7 @@
             // buttonResult
             // 
             buttonResult.Image = (Image)resources.GetObject("buttonResult.Image");
-            buttonResult.Location = new Point(668, 20);
+            buttonResult.Location = new Point(673, 26);
             buttonResult.Name = "buttonResult";
             buttonResult.Size = new Size(65, 56);
             buttonResult.TabIndex = 0;
@@ -64,7 +64,7 @@
             // buttonOpenFile
             // 
             buttonOpenFile.Image = (Image)resources.GetObject("buttonOpenFile.Image");
-            buttonOpenFile.Location = new Point(597, 20);
+            buttonOpenFile.Location = new Point(602, 28);
             buttonOpenFile.Name = "buttonOpenFile";
             buttonOpenFile.Size = new Size(65, 56);
             buttonOpenFile.TabIndex = 1;
@@ -75,7 +75,7 @@
             // buttonHelp
             // 
             buttonHelp.Image = (Image)resources.GetObject("buttonHelp.Image");
-            buttonHelp.Location = new Point(742, 20);
+            buttonHelp.Location = new Point(748, 26);
             buttonHelp.Name = "buttonHelp";
             buttonHelp.Size = new Size(46, 43);
             buttonHelp.TabIndex = 5;
@@ -85,7 +85,7 @@
             // 
             // textBoxResult
             // 
-            textBoxResult.Location = new Point(6, 26);
+            textBoxResult.Location = new Point(12, 29);
             textBoxResult.Multiline = true;
             textBoxResult.Name = "textBoxResult";
             textBoxResult.ScrollBars = ScrollBars.Vertical;
@@ -94,20 +94,21 @@
             // 
             // textBoxLoadFromFile
             // 
-            textBoxLoadFromFile.Location = new Point(6, 26);
+            textBoxLoadFromFile.Location = new Point(13, 26);
             textBoxLoadFromFile.Multiline = true;
             textBoxLoadFromFile.Name = "textBoxLoadFromFile";
             textBoxLoadFromFile.ScrollBars = ScrollBars.Vertical;
-            textBoxLoadFromFile.Size = new Size(358, 304);
+            textBoxLoadFromFile.Size = new Size(314, 304);
             textBoxLoadFromFile.TabIndex = 3;
             textBoxLoadFromFile.TextChanged += textBoxLoadFromFile_TextChanged;
             // 
             // groupBoxOutPutData
             // 
             groupBoxOutPutData.Controls.Add(textBoxLoadFromFile);
-            groupBoxOutPutData.Location = new Point(12, 108);
+            groupBoxOutPutData.Controls.Add(groupBox1);
+            groupBoxOutPutData.Location = new Point(0, 111);
             groupBoxOutPutData.Name = "groupBoxOutPutData";
-            groupBoxOutPutData.Size = new Size(370, 339);
+            groupBoxOutPutData.Size = new Size(800, 339);
             groupBoxOutPutData.TabIndex = 4;
             groupBoxOutPutData.TabStop = false;
             groupBoxOutPutData.Text = "Ввод данных";
@@ -115,9 +116,10 @@
             // groupBox1
             // 
             groupBox1.Controls.Add(textBoxResult);
-            groupBox1.Location = new Point(390, 108);
+            groupBox1.Dock = DockStyle.Right;
+            groupBox1.Location = new Point(366, 23);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(398, 339);
+            groupBox1.Size = new Size(431, 313);
             groupBox1.TabIndex = 3;
             groupBox1.TabStop = false;
             groupBox1.Text = "Вывод данных";
@@ -125,16 +127,20 @@
             // groupBox2
             // 
             groupBox2.Controls.Add(textBox1);
-            groupBox2.Location = new Point(12, 12);
+            groupBox2.Controls.Add(buttonResult);
+            groupBox2.Controls.Add(buttonOpenFile);
+            groupBox2.Controls.Add(buttonHelp);
+            groupBox2.Dock = DockStyle.Top;
+            groupBox2.Location = new Point(0, 0);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(557, 90);
+            groupBox2.Size = new Size(800, 105);
             groupBox2.TabIndex = 3;
             groupBox2.TabStop = false;
             groupBox2.Text = "Условие";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(0, 23);
+            textBox1.Location = new Point(6, 26);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(556, 67);
@@ -146,11 +152,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(buttonHelp);
             Controls.Add(groupBox2);
-            Controls.Add(groupBox1);
-            Controls.Add(buttonOpenFile);
-            Controls.Add(buttonResult);
             Controls.Add(groupBoxOutPutData);
             Name = "FormMain";
             RightToLeft = RightToLeft.No;
