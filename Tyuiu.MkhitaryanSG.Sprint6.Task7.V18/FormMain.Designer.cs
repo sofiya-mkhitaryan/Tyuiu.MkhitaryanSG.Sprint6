@@ -38,21 +38,21 @@
             panelUsl = new Panel();
             groupBoxUsl = new GroupBox();
             textBoxUsl = new TextBox();
-            panel1 = new Panel();
-            groupBox1 = new GroupBox();
+            panelVvod = new Panel();
+            groupBoxVvod = new GroupBox();
             dataGridViewInMatrix = new DataGridView();
-            panel2 = new Panel();
-            groupBox2 = new GroupBox();
+            panelVsvod = new Panel();
+            groupBoxVsvod = new GroupBox();
             dataGridViewOutMatrix = new DataGridView();
             openFileDialogTask = new OpenFileDialog();
             toolTipButton = new ToolTip(components);
             saveFileDialogMatrix = new SaveFileDialog();
             panelKnopki.SuspendLayout();
-            panel1.SuspendLayout();
-            groupBox1.SuspendLayout();
+            panelVvod.SuspendLayout();
+            groupBoxVvod.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridViewInMatrix).BeginInit();
-            panel2.SuspendLayout();
-            groupBox2.SuspendLayout();
+            panelVsvod.SuspendLayout();
+            groupBoxVsvod.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridViewOutMatrix).BeginInit();
             SuspendLayout();
             // 
@@ -152,23 +152,23 @@
             textBoxUsl.Text = resources.GetString("textBoxUsl.Text");
             textBoxUsl.TextChanged += textBoxUsl_TextChanged;
             // 
-            // panel1
+            // panelVvod
             // 
-            panel1.Controls.Add(groupBox1);
-            panel1.Location = new Point(12, 142);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(527, 375);
-            panel1.TabIndex = 2;
+            panelVvod.Controls.Add(groupBoxVvod);
+            panelVvod.Location = new Point(12, 142);
+            panelVvod.Name = "panelVvod";
+            panelVvod.Size = new Size(527, 375);
+            panelVvod.TabIndex = 2;
             // 
-            // groupBox1
+            // groupBoxVvod
             // 
-            groupBox1.Controls.Add(dataGridViewInMatrix);
-            groupBox1.Location = new Point(3, 3);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(520, 372);
-            groupBox1.TabIndex = 0;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Ввод";
+            groupBoxVvod.Controls.Add(dataGridViewInMatrix);
+            groupBoxVvod.Location = new Point(3, 3);
+            groupBoxVvod.Name = "groupBoxVvod";
+            groupBoxVvod.Size = new Size(520, 372);
+            groupBoxVvod.TabIndex = 0;
+            groupBoxVvod.TabStop = false;
+            groupBoxVvod.Text = "Ввод";
             // 
             // dataGridViewInMatrix
             // 
@@ -180,23 +180,23 @@
             dataGridViewInMatrix.Size = new Size(505, 340);
             dataGridViewInMatrix.TabIndex = 4;
             // 
-            // panel2
+            // panelVsvod
             // 
-            panel2.Controls.Add(groupBox2);
-            panel2.Location = new Point(681, 142);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(521, 375);
-            panel2.TabIndex = 0;
+            panelVsvod.Controls.Add(groupBoxVsvod);
+            panelVsvod.Location = new Point(681, 142);
+            panelVsvod.Name = "panelVsvod";
+            panelVsvod.Size = new Size(521, 375);
+            panelVsvod.TabIndex = 0;
             // 
-            // groupBox2
+            // groupBoxVsvod
             // 
-            groupBox2.Controls.Add(dataGridViewOutMatrix);
-            groupBox2.Location = new Point(3, 3);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(507, 372);
-            groupBox2.TabIndex = 0;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Вывод";
+            groupBoxVsvod.Controls.Add(dataGridViewOutMatrix);
+            groupBoxVsvod.Location = new Point(3, 3);
+            groupBoxVsvod.Name = "groupBoxVsvod";
+            groupBoxVsvod.Size = new Size(507, 372);
+            groupBoxVsvod.TabIndex = 0;
+            groupBoxVsvod.TabStop = false;
+            groupBoxVsvod.Text = "Вывод";
             // 
             // dataGridViewOutMatrix
             // 
@@ -218,8 +218,8 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1214, 537);
-            Controls.Add(panel2);
-            Controls.Add(panel1);
+            Controls.Add(panelVsvod);
+            Controls.Add(panelVvod);
             Controls.Add(textBoxUsl);
             Controls.Add(groupBoxUsl);
             Controls.Add(panelUsl);
@@ -228,11 +228,11 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Спринт 6 Таск 7 Вариант 18 Мхитарян С. Г.";
             panelKnopki.ResumeLayout(false);
-            panel1.ResumeLayout(false);
-            groupBox1.ResumeLayout(false);
+            panelVvod.ResumeLayout(false);
+            groupBoxVvod.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridViewInMatrix).EndInit();
-            panel2.ResumeLayout(false);
-            groupBox2.ResumeLayout(false);
+            panelVsvod.ResumeLayout(false);
+            groupBoxVsvod.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridViewOutMatrix).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -246,15 +246,15 @@
         private Button buttonDone_MSG;
         private Button buttonOpenFile_MSG;
         private Panel panelUsl;
-        private Panel panel1;
-        private Panel panel2;
+        private Panel panelVvod;
+        private Panel panelVsvod;
         private OpenFileDialog openFileDialogTask;
         private ToolTip toolTipButton;
         private SaveFileDialog saveFileDialogMatrix;
         private GroupBox groupBoxUsl;
         private TextBox textBoxUsl;
-        private GroupBox groupBox1;
-        private GroupBox groupBox2;
+        private GroupBox groupBoxVvod;
+        private GroupBox groupBoxVsvod;
         private DataGridView dataGridViewInMatrix;
         private DataGridView dataGridViewOutMatrix;
     }
