@@ -58,14 +58,14 @@
             // 
             // panelKnopki
             // 
-            panelKnopki.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            panelKnopki.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             panelKnopki.Controls.Add(buttonHelp_MSG);
             panelKnopki.Controls.Add(buttonSaveFile_MSG);
             panelKnopki.Controls.Add(buttonDone_MSG);
             panelKnopki.Controls.Add(buttonOpenFile_MSG);
-            panelKnopki.Location = new Point(12, 0);
+            panelKnopki.Location = new Point(0, 0);
             panelKnopki.Name = "panelKnopki";
-            panelKnopki.Size = new Size(1196, 60);
+            panelKnopki.Size = new Size(1214, 71);
             panelKnopki.TabIndex = 0;
             // 
             // buttonHelp_MSG
@@ -135,7 +135,7 @@
             groupBoxUsl.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             groupBoxUsl.Location = new Point(0, 61);
             groupBoxUsl.Name = "groupBoxUsl";
-            groupBoxUsl.Size = new Size(1214, 99);
+            groupBoxUsl.Size = new Size(1214, 75);
             groupBoxUsl.TabIndex = 0;
             groupBoxUsl.TabStop = false;
             groupBoxUsl.Text = "Условие";
@@ -154,6 +154,7 @@
             // 
             // panelVvod
             // 
+            panelVvod.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             panelVvod.Controls.Add(groupBoxVvod);
             panelVvod.Location = new Point(12, 142);
             panelVvod.Name = "panelVvod";
@@ -182,6 +183,7 @@
             // 
             // panelVsvod
             // 
+            panelVsvod.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
             panelVsvod.Controls.Add(groupBoxVsvod);
             panelVsvod.Location = new Point(681, 142);
             panelVsvod.Name = "panelVsvod";

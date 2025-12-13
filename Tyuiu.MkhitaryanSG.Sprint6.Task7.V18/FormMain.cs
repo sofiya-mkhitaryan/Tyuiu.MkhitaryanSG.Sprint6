@@ -17,7 +17,8 @@ namespace Tyuiu.MkhitaryanSG.Sprint6.Task7.V18
         public int[,] LoadFromData(string path)
         {
             string file = File.ReadAllText(path);
-            file = file.Replace('\n', '\r');
+
+            file = file.Replace('\n', '\r'); 
             string[] lines = file.Split(new char[] { '\r' }, StringSplitOptions.RemoveEmptyEntries);
 
             rows = lines.Length;
@@ -56,6 +57,7 @@ namespace Tyuiu.MkhitaryanSG.Sprint6.Task7.V18
         {
             openFileDialogTask.ShowDialog();
             openFile = openFileDialogTask.FileName;
+
             int[,] matrix = new int[rows, columns];
             matrix = LoadFromData(openFile);
 
