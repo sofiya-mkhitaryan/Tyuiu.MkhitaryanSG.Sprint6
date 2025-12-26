@@ -164,6 +164,9 @@
   <metadata name="toolTipButton.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>206, 17</value>
   </metadata>
+  <data name="textBoxUsl.Text" xml:space="preserve">
+    <value>Дан файл InPutFileTask7V18.csv в котором хранится матрица целочисленных значений. Загрузить файл через openFileDialog в объект dataGridViewIn. Изменить в девятом столбце значения не равные 11 на 11. Результат вывести в объект dataGridViewOut. Сохранить результат в файл OutPutFileTask7.csv через saveFileDialog.</value>
+  </data>
   <data name="buttonSaveFile_MSG.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
@@ -189,31 +192,6 @@
         YrcQYk8dvPlklwMnx1W0XUvh/oqKfD6Hr3u/wjenepHL5aCqKlQ1i8JyljMnJ1Ts6uJb8ToBejCQBG2s
         h+efPtw/RR3SzYVmsOnYBTzeNYIdXZew7dgFNHbYGWqjDGWf/cSe1gs8bDUJIV4QQrxWZnYqQbNMs118
         Td+gAH2KkwQ9WPSzUw0anB/H/wDSGe0wOxifnAAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="buttonDone_MSG.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
-        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAARNSURBVFhHtZfbT1xFHMe/iVdCW5VULX+BL0Ytmtr6
-        UJPSpBdtNTHR+Nb45oOpL7ZJge5uC601Jj5owqU1Ij40qS2l7i60QlsKFGjLRcCyF6Bc98LuwsKyC7uF
-        9Wtm9iyBwx4569Jf8sks5Dfz+5w5cyYzIAkAT28zWS1bTtYyq8DKrAJL2mwqsjKnyFwjxhID6g5FYLMo
-        nmk0DPiZfby6GsBT6jqaoQi8LJ5cxDWbh3/YPDTbvesi8mpsHtkPX12Wba3dx6xj1Zd1SygCr4hpFGFx
-        eFjn8LLOObk+Dq/MlwJHq+kMzCXGsE0y64TFDeAZdb01oRa4MTDJ+iEfG3Qg8kS+FPi6mr5wjF3umRUS
-        Zte6EmqBhkEfbz3y87YORJ7ITwosxuMcDs6zU5Gos/uYXbCORFLgeUXg9rCfd0YCbNKByBMiUuDoFdkK
-        CTETzkA48UADfuYYan2aEmqB5pEAW0aneFcHIq9pOCD7HbnULdeBmAmJ+K0sTPGJAnhRXVuGWqB1bIpt
-        49Ns14nIHw1GZF+tEK9X1FDXlqEWuDc+zfsTQT7QicgVfdrHEkLi9/LfY9NyTDG2boEO14xcRGI1p4Po
-        s5IOV1CStsBf3llJT4Ykx0lboG8yJPk7Q5LjpC1g88+x3z8n20xIjpG2gPh+HYGwbDMhOYZ+gRMJgaHp
-        8AYRkbtiQkDuA/oERoKRjBkNznNidok+ZXvILqrXLzAxO8/xDHGFYpyOktsLwLKGz7jF2K1fwBNaoFsX
-        UXrnYvSGH3MyvLgKf4ScXyJ3GsFTF8G8M/v0C/gjMfrCUfoi2oicqYU4Q4/J+Ti5ECejK4glZp67TKBt
-        9BsaL4H5p5D6pKQWmI0ucia6KFstQrG4LFR45SDzCsG3VbxTBO4wgO8awIfjRrY4Pqfhd3BvcQoJ9Wd4
-        5aGLV/vd/8k1m4/XBxe54yQ4GviJvZ4D7PUcYq/nsMJHkh73IdrcP7K0EWwdPELD1RQSSYHkgaTG5qbZ
-        7qFFHrdSU+v08+bwP9xpAG3e0yxtBsuawXIV4n9lLWD5XbCiFWwb+YImM7jvDMzLp2e1gDiUWuxeWh3a
-        1DkDvDVM7jKAHa4vWdoOlrWD5WruJahQ2l87n2Pd4Ovc/x1E0c0pBeQMKBJaWB2JGXjPADZNHGZFN3he
-        g4rOBOe7wF96QdN1cE8hGgHkqAQSx3Lxjmvke/ZoYrb7WP9oSQrUu99ilROS31ZQ5QAr7eDPfeCFPrCy
-        HzT+Ce4+jjsA3lgzA//nYnLh5qc8cBb88NxaDn4L5p8GqwbBygHQ1LBcPA/A1jVrINdkDcmrWaGeq5mV
-        m4puMMfUzFeLHzC3pIu5Jd3LbCvp4dbiIX5wDrzoAo2N4O5jq4qv+QrEgXE7gD0A8jeI/R9/D55tA99f
-        /eQp9wFxZBYSYrvcKF775AdwbwFaNYuvEHgS8ZKy2N4Ud8+UxUU8QYFnAbygrHbNK/u/zGQO/wM2+B8A
-        AAAASUVORK5CYII=
 </value>
   </data>
   <data name="buttonOpenFile_MSG.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -245,8 +223,30 @@
         3+eHyu1IFqIMJq9IpnUg5Dg5vs9Ptf9U/wAV4Qo0/hOsyAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="textBoxUsl.Text" xml:space="preserve">
-    <value>Дан файл InPutFileTask7V18.csv в котором хранится матрица целочисленных значений. Загрузить файл через openFileDialog в объект dataGridViewIn. Изменить в девятом столбце значения не равные 11 на 11. Результат вывести в объект dataGridViewOut. Сохранить результат в файл OutPutFileTask7.csv через saveFileDialog.</value>
+  <data name="buttonDone_MSG.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAARNSURBVFhHtZfbT1xFHMe/iVdCW5VULX+BL0Ytmtr6
+        UJPSpBdtNTHR+Nb45oOpL7ZJge5uC601Jj5owqU1Ij40qS2l7i60QlsKFGjLRcCyF6Bc98LuwsKyC7uF
+        9Wtm9iyBwx4569Jf8sks5Dfz+5w5cyYzIAkAT28zWS1bTtYyq8DKrAJL2mwqsjKnyFwjxhID6g5FYLMo
+        nmk0DPiZfby6GsBT6jqaoQi8LJ5cxDWbh3/YPDTbvesi8mpsHtkPX12Wba3dx6xj1Zd1SygCr4hpFGFx
+        eFjn8LLOObk+Dq/MlwJHq+kMzCXGsE0y64TFDeAZdb01oRa4MTDJ+iEfG3Qg8kS+FPi6mr5wjF3umRUS
+        Zte6EmqBhkEfbz3y87YORJ7ITwosxuMcDs6zU5Gos/uYXbCORFLgeUXg9rCfd0YCbNKByBMiUuDoFdkK
+        CTETzkA48UADfuYYan2aEmqB5pEAW0aneFcHIq9pOCD7HbnULdeBmAmJ+K0sTPGJAnhRXVuGWqB1bIpt
+        49Ns14nIHw1GZF+tEK9X1FDXlqEWuDc+zfsTQT7QicgVfdrHEkLi9/LfY9NyTDG2boEO14xcRGI1p4Po
+        s5IOV1CStsBf3llJT4Ykx0lboG8yJPk7Q5LjpC1g88+x3z8n20xIjpG2gPh+HYGwbDMhOYZ+gRMJgaHp
+        8AYRkbtiQkDuA/oERoKRjBkNznNidok+ZXvILqrXLzAxO8/xDHGFYpyOktsLwLKGz7jF2K1fwBNaoFsX
+        UXrnYvSGH3MyvLgKf4ScXyJ3GsFTF8G8M/v0C/gjMfrCUfoi2oicqYU4Q4/J+Ti5ECejK4glZp67TKBt
+        9BsaL4H5p5D6pKQWmI0ucia6KFstQrG4LFR45SDzCsG3VbxTBO4wgO8awIfjRrY4Pqfhd3BvcQoJ9Wd4
+        5aGLV/vd/8k1m4/XBxe54yQ4GviJvZ4D7PUcYq/nsMJHkh73IdrcP7K0EWwdPELD1RQSSYHkgaTG5qbZ
+        7qFFHrdSU+v08+bwP9xpAG3e0yxtBsuawXIV4n9lLWD5XbCiFWwb+YImM7jvDMzLp2e1gDiUWuxeWh3a
+        1DkDvDVM7jKAHa4vWdoOlrWD5WruJahQ2l87n2Pd4Ovc/x1E0c0pBeQMKBJaWB2JGXjPADZNHGZFN3he
+        g4rOBOe7wF96QdN1cE8hGgHkqAQSx3Lxjmvke/ZoYrb7WP9oSQrUu99ilROS31ZQ5QAr7eDPfeCFPrCy
+        HzT+Ce4+jjsA3lgzA//nYnLh5qc8cBb88NxaDn4L5p8GqwbBygHQ1LBcPA/A1jVrINdkDcmrWaGeq5mV
+        m4puMMfUzFeLHzC3pIu5Jd3LbCvp4dbiIX5wDrzoAo2N4O5jq4qv+QrEgXE7gD0A8jeI/R9/D55tA99f
+        /eQp9wFxZBYSYrvcKF775AdwbwFaNYuvEHgS8ZKy2N4Ud8+UxUU8QYFnAbygrHbNK/u/zGQO/wM2+B8A
+        AAAASUVORK5CYII=
+</value>
   </data>
   <metadata name="openFileDialogTask.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

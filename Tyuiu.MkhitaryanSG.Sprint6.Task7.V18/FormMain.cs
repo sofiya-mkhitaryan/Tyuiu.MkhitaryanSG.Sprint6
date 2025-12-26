@@ -18,7 +18,7 @@ namespace Tyuiu.MkhitaryanSG.Sprint6.Task7.V18
         {
             string file = File.ReadAllText(path);
 
-            file = file.Replace('\n', '\r'); 
+            file = file.Replace('\n', '\r');
             string[] lines = file.Split(new char[] { '\r' }, StringSplitOptions.RemoveEmptyEntries);
 
             rows = lines.Length;
@@ -134,6 +134,11 @@ namespace Tyuiu.MkhitaryanSG.Sprint6.Task7.V18
         {
             FormAbout formAbout = new FormAbout();
             formAbout.ShowDialog();
+        }
+
+        private void panelVvod_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
